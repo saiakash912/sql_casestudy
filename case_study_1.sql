@@ -1,7 +1,7 @@
 create database cs4;
 use cs4;
 
-##Q1
+###Q1
 select details.product_name,
 sum(sales.qty) as sales_counts
 from sales inner join product_details as details
